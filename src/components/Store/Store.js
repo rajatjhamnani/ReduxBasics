@@ -1,5 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import counterReducer, { authSlice, counterSlice } from "./Pointer";
+import { counterSlice } from "./Pointer";
+import { authSlice } from "./AuthRedux";
 
 // const counterReducer = (state = { counter: 0 }, action) => {
 //   if (action.type === "INCREMENT") {

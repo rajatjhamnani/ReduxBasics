@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import classes from "./Auth.module.css";
-import { login } from "./Store/Pointer";
+import { login } from "./Store/AuthRedux";
 
 const Auth = () => {
   const dispatch = useDispatch();
